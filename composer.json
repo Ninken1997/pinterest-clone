@@ -1,0 +1,24 @@
+{
+  "name": "ninken1997/pinterest-clone",
+  "type": "project",
+  "description": "Pinterest tarzı sosyal medya uygulaması - CodeIgniter 4",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "codeigniter4/framework": "^4.4",
+    "fakerphp/faker": "^1.9",
+    "phpmailer/phpmailer": "^6.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "@composer dump-autoload"
+    ],
+    "post-install-cmd": [
+      "@composer dump-autoload"
+    ]
+  }
+}
